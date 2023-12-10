@@ -38,21 +38,21 @@ k) What is a branch in git, and how do you create one? (Feel free to answer with
 **A branch is like a separate version of your repository that you can use to work on new and/or experimental features, or to test parts of your app, without affecting the main code base. Any changes you make on the branch won't be included in the main base until you merge them in. You create a new branch in the GitHub app by pressing `command-shift-n`, or selecting Branch -> New Branch in the Menu bar.**
 
 l) What are some common mistakes that can lead to errors while programming?
-    - **Typos**
-    - **Capitalization errors**
-    - **Too few/too many parentheses, quotes, brackets, or braces.**
-    - **Forgetting to add commas between items in lists that require them**
-    - **Missing colons, or semicolons instead of colons**
-    - **Missing spaces/too many spaces**
-    - **Using the wrong type for a var or let (Int instead of Double, or String instead of Int for example)**
-    - **Using a let instead of a var or vice versa**
-    - **Using the wrong type of return value or forgetting to return a value in a method/function that requires it**
-    - **Forgetting to add parameters, or adding too many parameters, or adding the parameters in the wrong order**
-    - **Forgetting a $ sign in a binding variable**
-    - **In certain languages, forgetting to indent properly**
-    - **Using a variable before declaring it**
-    - **Using a variable out of scope**
-    - **Not documenting your code**
+- **Typos**
+- **Capitalization errors**
+- **Too few/too many parentheses, quotes, brackets, or braces.**
+- **Forgetting to add commas between items in lists that require them**
+- **Missing colons, or semicolons instead of colons**
+- **Missing spaces/too many spaces**
+- **Using the wrong type for a var or let (Int instead of Double, or String instead of Int for example)**
+- **Using a let instead of a var or vice versa**
+- **Using the wrong type of return value or forgetting to return a value in a method/function that requires it**
+- **Forgetting to add parameters, or adding too many parameters, or adding the parameters in the wrong order**
+- **Forgetting a $ sign in a binding variable**
+- **In certain languages, forgetting to indent properly**
+- **Using a variable before declaring it**
+- **Using a variable out of scope**
+- **Not documenting your code**
 
 m) VStack, HStack, and ZStack are **Container** views used for **organizing and arranging views linearly along the vertical, horizontal or depth axises.**
 
