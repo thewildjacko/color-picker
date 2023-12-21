@@ -8,8 +8,6 @@ c) print(“Hello world”) is an example of a **function** call.
 viewModel.getData() is an example of a **method** call.
 
 d) Name some Views you have seen so far in SwiftUI.
-  - **body**
-  - **ContentView**
   - **Text**
   - **Button**
   - **VStack**
