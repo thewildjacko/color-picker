@@ -60,7 +60,7 @@ p) This line of code was in the lesson on animation. Can you state in English wh
 
 .frame(width: wideShapes ? 200 : 100
 
-**It's a ternary operator, and it means that if `wideShapes` is `true`, then set the `frame` width to `200`, otherwise set it to `100`.
+**It's a ternary operator, and it means that if `wideShapes` is `true`, then set the `frame` width to `200`, otherwise set it to `100`.**
 
 q) Describe the two transitions you were introduced to in this week’s lesson.
 - **`.scale` grows and shrinks views between sizes (or between hidden and visible) from the center of the view**
