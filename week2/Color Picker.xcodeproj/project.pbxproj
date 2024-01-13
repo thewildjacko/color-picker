@@ -14,6 +14,11 @@
 		1D00F2DA2B23C6030059396A /* Color_PickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D00F2D92B23C6030059396A /* Color_PickerTests.swift */; };
 		1D00F2E42B23C6030059396A /* Color_PickerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D00F2E32B23C6030059396A /* Color_PickerUITests.swift */; };
 		1D00F2E62B23C6030059396A /* Color_PickerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D00F2E52B23C6030059396A /* Color_PickerUITestsLaunchTests.swift */; };
+		1D45D67A2B520C03005D0587 /* SetColorButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D45D6792B520C03005D0587 /* SetColorButton.swift */; };
+		1D45D67C2B5269C4005D0587 /* ColorRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D45D67B2B5269C4005D0587 /* ColorRect.swift */; };
+		1D6F99C52B51D1EB001A28C7 /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6F99C42B51D1EB001A28C7 /* SliderView.swift */; };
+		1D6F99C82B51D452001A28C7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6F99C72B51D452001A28C7 /* Constants.swift */; };
+		1D6F99CA2B51FE73001A28C7 /* TextViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6F99C92B51FE73001A28C7 /* TextViews.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +49,11 @@
 		1D00F2DF2B23C6030059396A /* Color PickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Color PickerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D00F2E32B23C6030059396A /* Color_PickerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color_PickerUITests.swift; sourceTree = "<group>"; };
 		1D00F2E52B23C6030059396A /* Color_PickerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color_PickerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1D45D6792B520C03005D0587 /* SetColorButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetColorButton.swift; sourceTree = "<group>"; };
+		1D45D67B2B5269C4005D0587 /* ColorRect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorRect.swift; sourceTree = "<group>"; };
+		1D6F99C42B51D1EB001A28C7 /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
+		1D6F99C72B51D452001A28C7 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		1D6F99C92B51FE73001A28C7 /* TextViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViews.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +104,9 @@
 		1D00F2C72B23C6010059396A /* Color Picker */ = {
 			isa = PBXGroup;
 			children = (
+				1D6F99C62B51D43A001A28C7 /* Models */,
 				1D00F2C82B23C6010059396A /* Color_PickerApp.swift */,
-				1D00F2CA2B23C6010059396A /* ContentView.swift */,
+				1D6F99C32B51D1BE001A28C7 /* Views */,
 				1D00F2CC2B23C6030059396A /* Assets.xcassets */,
 				1D00F2CE2B23C6030059396A /* Preview Content */,
 			);
@@ -125,6 +136,26 @@
 				1D00F2E52B23C6030059396A /* Color_PickerUITestsLaunchTests.swift */,
 			);
 			path = "Color PickerUITests";
+			sourceTree = "<group>";
+		};
+		1D6F99C32B51D1BE001A28C7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1D00F2CA2B23C6010059396A /* ContentView.swift */,
+				1D45D67B2B5269C4005D0587 /* ColorRect.swift */,
+				1D45D6792B520C03005D0587 /* SetColorButton.swift */,
+				1D6F99C92B51FE73001A28C7 /* TextViews.swift */,
+				1D6F99C42B51D1EB001A28C7 /* SliderView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1D6F99C62B51D43A001A28C7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1D6F99C72B51D452001A28C7 /* Constants.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +288,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D6F99C52B51D1EB001A28C7 /* SliderView.swift in Sources */,
 				1D00F2CB2B23C6010059396A /* ContentView.swift in Sources */,
+				1D45D67A2B520C03005D0587 /* SetColorButton.swift in Sources */,
 				1D00F2C92B23C6010059396A /* Color_PickerApp.swift in Sources */,
+				1D45D67C2B5269C4005D0587 /* ColorRect.swift in Sources */,
+				1D6F99CA2B51FE73001A28C7 /* TextViews.swift in Sources */,
+				1D6F99C82B51D452001A28C7 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +466,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -459,6 +496,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
